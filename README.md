@@ -26,7 +26,7 @@ This repository contains the source code for the major project of Object-Oriente
 
 2. **Set up the Database:**
    - Create a MySQL database.
-   - Configure the database connection in `src/config.properties`:
+   - Configure the database connection in `src/Models/Database.java`:
      ```properties
      db.url=jdbc:mysql://localhost:3306/your_database
      db.username=your_username
